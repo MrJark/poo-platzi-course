@@ -22,3 +22,35 @@ Y 4 Pilares:
 - Polimorfismo:  Propiedad por la que es posible enviar mensajes sintácticamente iguales a objetos de tipos distintos
 
 Lenguajes de Programación: JS, Python, Java, PHP, Ruby, C#
+
+Diagramas de Modelado
+
+Nos permiten plasmar de forma gráfica a través de diagramas nuestro análisis. Servirá de intermediario para poder entender el problema y la solución con la orientación a objetos. Existen dos herramientas de diagramación:
+    - OMT (Object Modeling Techniques)
+    Metodología que se basa estrictamente en identificar los objetos, sus métodos, sus atributos y cuales son las relaciones que tienen. Pero ya está descontinuada.
+    - UML (Unified Modeling Languaje)
+    Toma todas las bases y técnicas del OMT, las unifica y permite una ampliación de apicaciones, no solo objetos y clases. Sino que incluye casos de uso, actividades, iteración, estados e implementación.
+
+Trabajando con UML -> Vamos a trabajar de una manera gráfica 
+
+    CLASES:
+    En la parte superior se colocan los atributos o propiedades, y debajo las operaciones de la clase. Notarás que el primer caracter con el que empiezan es un símbolo. Este denotará la visibilidad del atributo o método, esto es un término que tiene que ver con Encapsulamiento.
+    Modos de visualización:
+        - private
+        + public
+        # protected
+        ~ default
+    
+    ASOCIACIONES:
+    Cuando aparezca una flecha ( → ) de un objeto a otro, significa que al que señala lo está conteniendo 
+
+    HERENCIAS:
+    Y si la flecha es hacia arriba o hacia abajo( ↑↓ ), significa que de donde sale, está herendando la propiedad del que apunta
+
+    AGREGACIÓN:
+    Es similar a la asociación pero en este caso dependerá de varios elemento y no de uno solo. Se representa como una flecha pero en la punta tiene un rombo sin relleno ( <>-- )
+
+    COMPOSICIÓN:
+    Similar a la agregación pero está reprensentado con la misma señal pero con el rombo pintado de negro ( <>-- ) y significa que no podría existir sin los demás
+
+    
