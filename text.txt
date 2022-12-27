@@ -53,4 +53,20 @@ Trabajando con UML -> Vamos a trabajar de una manera gráfica
     COMPOSICIÓN:
     Similar a la agregación pero está reprensentado con la misma señal pero con el rombo pintado de negro ( <>-- ) y significa que no podría existir sin los demás
 
-    
+Los objetos tienen Propiedaes y Comportamientos. Los objetos pueden ser de dos tipos:
+    - Físicos: aquellos que se pueden tocar, como un Usuario
+    - Conceptuales: como la sesión de un usuario 
+Las Propiedades pueden llamarse atributos y son 'sustantivos', es decir, nombre, tamaño, forma, son todas las características del objeto
+Los Comportamientos son todas aquellas operaciones que el objeto puede hacer, suelen ser un 'verbo' o un 'sustantivo' y un 'verbo', un ejemplo de esto puede ser que el usuario haga log-in, log-out, share
+
+Una Clase es el modelo por el cual nuestros objetos se van a construir y nos van a permitir generar más objetos
+La Abstracción es cuando separamos los datos de un objeto para generar un molde.
+
+La Modularidad va muy relacionada con las clases y es un principio de la Programación Orientado a Objetos y va de la mano con el Diseño Modular que significa dividir un sistema en partes pequeñas y estas serán nuestros módulos pudiendo funcionar de manera independiente.
+La modularidad de nuestro código nos va a permitir: 
+    - Reutilizar
+    - Evitar colapsos
+    - Hacer nuestro código más mantenible
+    - Legibilidad
+    - Resolución rápida de problemas
+Una buena práctica es separando las clases en archivos diferentes.
