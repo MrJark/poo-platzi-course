@@ -70,3 +70,41 @@ La modularidad de nuestro código nos va a permitir:
     - Legibilidad
     - Resolución rápida de problemas
 Una buena práctica es separando las clases en archivos diferentes.
+
+Sintaxtis y clases de UML
+
+Las clases se identifican en cajas de la siguinete manera:
+    -Nombre de la clase -> Indentidad
+    -Los distintos atributos -> Estado 
+    -Las distintas operaciones -> Comportamientos
+Definición de las clases en los distintos lenguajes de programación:
+
+    -Java -> class Person {}
+    -Python -> calss Person:
+    -JS -> function Person () {}
+    -PHP -> class Person {}
+
+Definición de las clases y sus métodos en los distintos lenguajes de programación:
+
+    -Java -> class Person {
+                String name = " ";
+                void walk (){} 
+            }
+
+    -Python -> calss Person: 
+                    name = " ";
+                    def walk ();
+
+    -JS -> Person.prototype.walk = function () { }
+    -PHP -> class Person {
+                $name = " ";
+                function walk () {}
+            }
+
+Herencia
+
+Don’t repeat yourself es una filosofía que promueve la reducción de duplicación en programación, esto nos va a inculcar que no tengamos líneas de código duplicadas
+La herencia nos permite crear nuevas clases a partir de otras, se basa en modelos y conceptos de la vida real. Tenemos una jerarquía de padre e hijo.
+
+La clase padre también se le puede llamar superclase y a los hijos como subclases
+
