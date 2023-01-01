@@ -108,3 +108,26 @@ La herencia nos permite crear nuevas clases a partir de otras, se basa en modelo
 
 La clase padre también se le puede llamar superclase y a los hijos como subclases
 
+Construcción de los objetos en los distintos lenguajes
+
+    -Java -> Person person = new Person();
+    -Python -> persona = Person()
+    -JS -> var person = new Person();
+    -PHP -> $person = new Person();
+
+Métodos constructores para cada una de sus clases en los distintos lenguages
+
+    -Java -> pucblic Person(String name) {
+                this.name = name;
+            }
+
+    -Python -> def__init__(self, name):
+                self.name = name 
+
+    -JS -> function Person (name) {
+                this.name = name 
+            }
+
+    -PHP -> public function _constructor($name) {
+                $this->name = name;
+            }
