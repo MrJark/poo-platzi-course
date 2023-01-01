@@ -131,3 +131,19 @@ Métodos constructores para cada una de sus clases en los distintos lenguages
     -PHP -> public function _constructor($name) {
                 $this->name = name;
             }
+
+Sintaxis de las herencias en los distintos lenguages
+ 
+    -Java -> class Student extends Person //es la sintaxis extend lo que me dice que es herencia
+    -Python -> class Student(Person):
+    -JS -> student.prototype = new Person ();
+    -PHP -> class Student extends Person // la el extend lo que me dice que es herencia
+
+El Encapsulamiento es hacer que un dato sea inviolable, inalterable cuando se le asigne un modificador de acceso
+Hay varios tipos: 
+    -public
+    -protected
+    -default
+    -private
+
+El polimorfismo, muchas formas, es construeir métodos con el mismo nombre pero con el comportamiento diferente. Un ejemplo con Uber serían los distintos tipo de Uber que hay, UberBlack, UberX, Uber Van, et.
